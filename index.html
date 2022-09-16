@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>XLSX Javascript</title>
+</head>
+<body>
+    
+    <label for="file" class="is-loading">
+        <span class="text-label">No file selected</span>
+        <span class="btn">Choose File</span>
+        <input type="file" id="file" accept=".xlsx">
+    </label>
+    <div class="loader"></div>
+    <div class="loaded">3/23</div>
+    <script src="/node_modules/xlsx/dist/xlsx.full.min.js"></script>
+    <script src="/assets/js/library.js"></script>
+    <script src="/assets/js/app.js"></script>
+</body>
+</html>
